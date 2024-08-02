@@ -25,5 +25,8 @@
   "tabs": {
     "git_status": true
   },
-  "formatter": "auto"
+  "formatter": "auto",
+  "indent_guides": {
+    "coloring": "indent_aware"
+  }
 }
