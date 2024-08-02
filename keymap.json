@@ -33,7 +33,8 @@
     "context": "vim_mode == visual",
     "bindings": {
       "space": "editor::SelectLargerSyntaxNode",
-      "shift-space": "editor::SelectSmallerSyntaxNode"
+      "shift-space": "editor::SelectSmallerSyntaxNode",
+      "s a": ["vim::PushOperator", { "AddSurrounds": {} }]
     }
   },
   {
