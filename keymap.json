@@ -26,8 +26,7 @@
       "space z z": "workspace::CloseAllDocks",
       "space p r": "projects::OpenRecent",
       "space w w": "pane::CloseActiveItem",
-      "space w W": "pane::ReopenClosedItem",
-      "c r": "editor::Rename"
+      "space w W": "pane::ReopenClosedItem"
     }
   },
   {
