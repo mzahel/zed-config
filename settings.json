@@ -28,5 +28,8 @@
   "formatter": "auto",
   "indent_guides": {
     "coloring": "indent_aware"
+  },
+  "tab_bar": {
+    "show": false
   }
 }
