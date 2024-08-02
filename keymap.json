@@ -25,7 +25,8 @@
       "space w w": "pane::CloseActiveItem",
       "space w o": "pane::CloseInactiveItems",
       "space w W": "pane::ReopenClosedItem",
-      "space z z": "workspace::CloseAllDocks"
+      "space z z": "workspace::CloseAllDocks",
+      "p r": "projects::OpenRecent"
     }
   },
   {
