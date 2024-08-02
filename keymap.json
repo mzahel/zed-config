@@ -1,0 +1,49 @@
+// Zed keymap
+//
+// For information on binding keys, see the Zed
+// documentation: https://zed.dev/docs/key-bindings
+//
+// To see the default key bindings run `zed: Open Default Keymap`
+// from the command palette.
+[
+  {
+    "context": "Workspace",
+    "bindings": {}
+  },
+  {
+    "context": "Editor",
+    "bindings": {}
+  },
+  {
+    "context": "vim_mode == normal",
+    "bindings": {
+      "space space": "file_finder::Toggle",
+      "g f e": "pane::RevealInProjectPanel",
+      "g t": "terminal_panel::ToggleFocus",
+      "g T": "workspace::NewCenterTerminal",
+      "space c f": "editor::Format",
+      "space w w": "pane::CloseActiveItem",
+      "space w o": "pane::CloseInactiveItems",
+      "space w W": "pane::ReopenClosedItem",
+      "space z z": "workspace::CloseAllDocks"
+    }
+  },
+  {
+    "context": "ProjectPanel",
+    "bindings": {
+      "a": "project_panel::NewFile",
+      "y": "project_panel::Copy",
+      "p": "project_panel::Paste",
+      "r": "project_panel::Rename",
+      "d": "project_panel::Delete",
+      "space w w": "project_panel::ToggleFocus",
+      "z z": "project_panel::CollapseAllEntries"
+    }
+  },
+  {
+    "context": "Terminal",
+    "bindings": {
+      "ctrl-w ctrl-w": "terminal_panel::ToggleFocus"
+    }
+  }
+]
