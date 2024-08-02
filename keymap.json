@@ -31,6 +31,13 @@
     }
   },
   {
+    "context": "vim_mode == visual",
+    "bindings": {
+      "space": "editor::SelectLargerSyntaxNode",
+      "shift-space": "editor::SelectSmallerSyntaxNode"
+    }
+  },
+  {
     "context": "TabSwitcher",
     "bindings": {
       "d": "tab_switcher::CloseSelectedItem"
