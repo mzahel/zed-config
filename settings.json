@@ -31,5 +31,8 @@
   },
   "tab_bar": {
     "show": false
+  },
+  "vim": {
+    "use_system_clipboard": "on_yank"
   }
 }
