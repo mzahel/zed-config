@@ -44,7 +44,7 @@
     }
   },
   {
-    "context": "ProjectPanel",
+    "context": "ProjectPanel && not_editing",
     "bindings": {
       "a": "project_panel::NewFile",
       "y": "project_panel::Copy",
