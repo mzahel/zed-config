@@ -51,7 +51,7 @@
       "p": "project_panel::Paste",
       "r": "project_panel::Rename",
       "d": "project_panel::Delete",
-      "space w w": "project_panel::ToggleFocus",
+      "w w": "project_panel::ToggleFocus",
       "z z": "project_panel::CollapseAllEntries"
     }
   },
